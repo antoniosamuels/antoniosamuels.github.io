@@ -1,0 +1,24 @@
+/*Button Styles*/
+.btn {
+  -webkit-border-radius: 65;
+  -moz-border-radius: 65;
+  border-radius: 65px;
+  font-family: Arial;
+  color: #BA9568;
+  font-size: 18px;
+  font-weight: 100;
+  background: transparent;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 2px #BA9568 solid; 
+}
+
+.btn:hover {
+  background: #000;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+    font-family: Arial;
+}
