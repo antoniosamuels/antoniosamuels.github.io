@@ -84,7 +84,7 @@ header {
 }
 
 .footer {
-    background: #1F1F1F;
+    background: #e4e2e2;
     height: auto;
     color: #fff;
     padding: 5% 0 5%;
@@ -105,7 +105,7 @@ header {
 }
 
 .footer img {
-    opacity: 0.2;
+    opacity: 1.5;
     padding: 10px 10px;
 }
 
