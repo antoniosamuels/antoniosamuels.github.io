@@ -1,49 +1,39 @@
-
-
 body {
-  background: url(../img/tony-back.jpg) left center no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../img/tony-back.jpg) left center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-style: normal;
     font-family: sans-serif;
     margin: 0;
 }
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-
 .container {
-  margin: 0px 22%;
+    margin: 0px 22%;
 }
-
 section {
     padding: 3% 0;
 }
-
 header {
     display: block;
     height: 100vh;
 }
-
 @media only screen and (max-width: 800px) {
     header {
         height: auto;
     }
 }
-
 @media only screen and (max-width: 500px) {
     header {
         height: auto;
     }
 }
-
 .logo {
     margin-top: 45px;
 }
-
 .about {
     background: #F4F4F4;
     color: #111;
@@ -51,11 +41,9 @@ header {
     font-size: 1.2em;
     padding: 3% 0 6%;
 }
-
 .about h1 {
     color: #1A1A1A;
 }
-
 .service {
     background: #000;
     color: #fff;
@@ -63,18 +51,15 @@ header {
     font-size: 1.2em;
     padding: 3% 0 6%;
 }
-
 .portfolio {
     background: #ffffff;
     color: #111;
     margin: 0px;
     font-size: 1.2em;
 }
-
 .portfolio h1 {
     color: #7f7f7f;
 }
-
 .footer-text {
     background: #f2f2f2;
     color: #111;
@@ -82,7 +67,6 @@ header {
     font-size: 1.2em;
     padding: 5% 0 5%;
 }
-
 .footer {
     background: #e4e2e2;
     height: auto;
@@ -93,34 +77,27 @@ header {
     -moz-filter: grayscale(1);
     -ms-filter: grayscale(1);
     -o-filter: grayscale(1);
-
     /* Theoretically for IE 8 & 9 (more valid) */
     /* ...but not required as filter works too */
     /* should come BEFORE filter */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; // IE8
-
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; // IE8
     /* This works in IE 8 & 9 too */
     /* ... but also 5, 6, 7 */
     filter: alpha(opacity=30); // IE 5-7
 }
-
 .footer img {
     opacity: 1.5;
     padding: 10px 10px;
 }
-
 .footer-text h1 {
     color: #7f7f7f;
 }
-
 f-container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-
 }
-
 p {
     color: #7f7f7f;
     font-weight: 100;
@@ -128,13 +105,11 @@ p {
     line-height: 1.4em;
     width: 80%;
 }
-
 @media only screen and (max-width: 500px) {
     p {
         font-size: 0.8em;
     }
 }
-
 h1 {
     font-size: 2.3em;
     font-weight: 100;
@@ -142,105 +117,85 @@ h1 {
     /*color: dimgrey;*/
     color: #BA9568;
 }
-
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 1.1em;
     }
 }
-
 .quetext {
     font-size: 38px;
     width: 68%;
     margin-top: 15%;
     margin-bottom: 0px;
 }
-
 @media only screen and (max-width: 800px) {
     .quetext {
         width: 99%;
     }
 }
-
 @media only screen and (max-width: 500px) {
     .quetext {
         font-size: 1.5em;
         width: 99%;
     }
 }
-
 .quesub {
     font-size: 16px;
     color: #BA9568;
 }
-
 .quesub-ft {
     font-size: 19px;
     color: #BA9568;
     margin-top: -16px;
     padding-bottom: 22px;
 }
-
 .quesub-ft a {
     color: #BA9568;
     text-decoration: none;
 }
-
 .quesub-ft a:hover {
     color: #000;
 }
-
 .social {
     display: flex;
     margin: 0 0;
 }
-
 .social p {
     padding-right: 25px;
 }
-
 .social a {
     color: #A20619;
     text-decoration: none;
 }
-
 .social a:hover {
     color: #000;
 }
-
 .sociallinks {
     display: inline-block;
 }
-
 .sociallinks .fa {
     padding-right: 15px;
 }
-
 ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
 li {
-  padding: 10px;
+    padding: 10px;
 }
-
 li:nth-child(2) {
-  margin-left: auto;
+    margin-left: auto;
 }
-
 hr {
     width: 200px;
     display: inline-block;
 }
-
 .short-width {
     max-width: 900px;
     min-width: 100px;
 }
-
 .copyright {
     font-size: 0.8em;
     font-weight: 600;
