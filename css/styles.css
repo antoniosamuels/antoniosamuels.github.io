@@ -1,5 +1,5 @@
 body {
-    background: url(../img/tony-back.jpg) left center no-repeat fixed;
+    background: url(../img/antoniosamuels.jpg) left center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,6 +10,11 @@ body {
 }
 * {
     box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 .container {
     margin: 0px 22%;
@@ -124,7 +129,7 @@ h1 {
 }
 .quetext {
     font-size: 38px;
-    /*width: 68%;*/
+    width: 68%;
     margin-top: 15%;
     margin-bottom: 0px;
     color: #f1f1f1;
@@ -176,6 +181,7 @@ h1 {
 }
 .sociallinks .fa {
     padding-right: 15px;
+    color: #ffffff;
 }
 ul {
     display: flex;
