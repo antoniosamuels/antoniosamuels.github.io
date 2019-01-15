@@ -1,9 +1,0 @@
-{
-    "type": "ftp",
-    "host": "antoniosamuels.com",
-    "username": "tonysamuelsstudio.com",
-    "password": "Jadedana5966@9",
-    "port": 21,
-    "remotePath": "domains/antoniosamuels.com/html/",
-    "uploadOnSave": false
-}
