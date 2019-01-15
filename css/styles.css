@@ -104,7 +104,7 @@ f-container {
     flex-direction: column;
 }
 p {
-    color: #7f7f7f;
+    color: #ffffff;
     font-weight: 100;
     font-size: 1.2em;
     line-height: 1.4em;
@@ -129,7 +129,7 @@ h1 {
 }
 .quetext {
     font-size: 38px;
-    width: 68%;
+    width: 60%;
     margin-top: 15%;
     margin-bottom: 0px;
     color: #f1f1f1;
@@ -146,17 +146,17 @@ h1 {
     }
 }
 .quesub {
-    font-size: 16px;
-    color: #BA9568;
+    font-size: 26px;
+    color: #ff9201;
 }
 .quesub-ft {
     font-size: 19px;
-    color: #BA9568;
+    color: #ff9201;
     margin-top: -16px;
     padding-bottom: 22px;
 }
 .quesub-ft a {
-    color: #BA9568;
+    color: #ff9201;
     text-decoration: none;
 }
 .quesub-ft a:hover {
