@@ -1,5 +1,4 @@
 body {
-    background: url(../img/antoniosamuels.jpg) left center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,11 +10,6 @@ body {
 * {
     box-sizing: border-box;
 }
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
 .container {
     margin: 0px 22%;
 }
@@ -24,7 +18,7 @@ section {
 }
 header {
     display: block;
-    height: 100vh;
+    height: 70vh;
 }
 @media only screen and (max-width: 800px) {
     header {
@@ -40,17 +34,17 @@ header {
     margin-top: 45px;
 }
 .about {
-    background: #F4F4F4;
-    color: #111;
+    /* background: #F4F4F4;
+    color: #111; */
     margin: 0px;
     font-size: 1.2em;
     padding: 3% 0 6%;
 }
 .about h1 {
-    color: #1A1A1A;
+    /* color: #1A1A1A; */
 }
 .service {
-    background: #000;
+    /* background: #000; */
     color: #fff;
     margin: 0px;
     font-size: 1.2em;
@@ -104,11 +98,11 @@ f-container {
     flex-direction: column;
 }
 p {
-    color: #ffffff;
+    color: #7f7f7f;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.4em;
-    width: 90%;
+    width: 80%;
 }
 @media only screen and (max-width: 500px) {
     p {
@@ -116,11 +110,12 @@ p {
     }
 }
 h1 {
-    font-size: 2.3em;
+    font-size: 0.9em;
     font-weight: 100;
-    margin-bottom: 2px;
-    /*color: dimgrey;*/
-    color: #BA9568;
+    margin-bottom: 1px;
+    color: dimgrey;
+    /* color: #BA9568; */
+    text-transform: uppercase;
 }
 @media only screen and (max-width: 500px) {
     h1 {
@@ -129,10 +124,9 @@ h1 {
 }
 .quetext {
     font-size: 38px;
-    width: 60%;
+    width: 68%;
     margin-top: 15%;
     margin-bottom: 0px;
-    color: #f1f1f1;
 }
 @media only screen and (max-width: 800px) {
     .quetext {
@@ -146,17 +140,17 @@ h1 {
     }
 }
 .quesub {
-    font-size: 26px;
-    color: #ff9201;
+    font-size: 16px;
+    color: #BA9568;
 }
 .quesub-ft {
     font-size: 19px;
-    color: #ff9201;
+    color: #BA9568;
     margin-top: -16px;
     padding-bottom: 22px;
 }
 .quesub-ft a {
-    color: #ff9201;
+    color: #BA9568;
     text-decoration: none;
 }
 .quesub-ft a:hover {
@@ -180,8 +174,8 @@ h1 {
     display: inline-block;
 }
 .sociallinks .fa {
-    padding-right: 15px;
-    color: #ffffff;
+    padding-right: 12px;
+    font-size: 1.3em;
 }
 ul {
     display: flex;
@@ -199,6 +193,24 @@ hr {
     width: 200px;
     display: inline-block;
 }
+
+a {
+    color: #585858;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#BA9568;
+}
+
+.vertical-line {
+    border-left: 1px solid #BA9568;
+    height: 180px;
+    margin-top: 15px;
+    margin-bottom: -80px;
+    margin-left: 5px;
+}
+
 .short-width {
     max-width: 900px;
     min-width: 100px;
@@ -208,3 +220,5 @@ hr {
     font-weight: 600;
     color: #585858;
 }
+
+
