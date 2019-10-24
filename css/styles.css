@@ -195,12 +195,13 @@ hr {
 }
 
 a {
-    color: #585858;
+    color: #ba9568;
     text-decoration: none;
 }
 
-a:hover {
-    color:#BA9568;
+a:hover, a:active {
+    /* color:#017294; */
+    color: #000;
 }
 
 .vertical-line {
