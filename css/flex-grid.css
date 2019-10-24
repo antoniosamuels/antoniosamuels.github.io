@@ -192,3 +192,8 @@
   margin: auto;
   padding-top: 45px;
 }
+
+
+.no-flex-pad-t {
+  padding-top: 0px !important;
+}
